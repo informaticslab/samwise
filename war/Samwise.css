@@ -1,0 +1,279 @@
+
+body {
+	padding: 10px;
+	background-color: black;
+}
+
+#Top { height: 40px; }
+
+#MainPanel {
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	background-color: #fef0c9;
+	padding: 30px;
+}
+
+.tableNumericColumn {
+	text-align: right;
+	width: 8em;
+}
+
+.tableButtonColumn {
+	text-align: center;
+}
+
+.listTable {
+	border: 1px solid silver;
+	padding: 2px;
+	margin-bottom: 6px;
+	border-collapse: collapse;
+}
+
+.listHeader {
+  background-color: #2062B8;
+  color: white;
+  border-right: 1px solid #2062B8;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.removeButton {
+	width: 50px;
+}
+
+.uploadPanel {
+	margin: 10px 0px 15px 0px;
+  	background-color: #2062B8;
+  	color: white;
+  	padding: 10px;
+}
+
+.selectLabel {
+	font-style: italic;
+}
+
+.documentPanel {
+	width: 670px;
+	height: 700px;
+}
+
+.documentScrollPanel {
+	width: 700px;
+	height: 700px;
+}
+
+.pdfImage {
+	width: 670px;	
+}
+
+.wizardTitle {
+	font-weight: bold;
+	background-color: #2062B8;
+	color: white;
+}
+
+.wizardScrollPanel {
+	background-color: white;
+	height: 660px;
+	font-size: smaller;
+}
+
+.wizardMainPanel {
+	background-color: #2062B8;
+	width: 290px;
+}
+
+.groupsPanel {
+	font-size: smaller;
+}
+
+.groupPanel {
+	margin-bottom: 10px;	
+}
+
+.factorsTable {
+	border-colapse: colapse;
+	border: 1px solid silver;
+}
+
+.factorPanel {
+	padding: 4px;
+}
+
+.analysisButton {
+  	padding: 3px 5px;
+  	cursor: pointer;
+  	cursor: hand;
+	margin-bottom: 4px;	
+}
+
+.analysisPanel {
+	background-color: #eef3e2;	
+}
+
+.ratingButton {
+	font-size: smaller;
+	margin-right: 4px;	
+}
+
+.buttonsPanel {
+	padding: 10px;
+}
+
+.helpPanel {
+	width: 500px;	
+}
+
+.helpSubjectLabel {
+	font-weight: bold;
+	font-size: larger;	
+  	background-color: #2062B8;
+  	color: white;
+}
+
+.helpTable {
+	border: 1px solid silver;
+	padding: 4px;
+	margin-bottom: 6px;
+}
+
+.helpTableHeader {
+	vertical-align: top;
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+	width: 90px;
+}
+
+.helpButton {
+	width: 50px;
+}
+
+.listTableHeader {
+	vertical-align: top;
+}
+
+.analysisTopLabel {
+	font-size: larger;	
+}
+
+.analysisHeadingLabel {
+	font-size:larger;
+	color: #2d61b7;
+}
+
+.analysisTopPanel {
+	margin: 6px;	
+}
+
+.analysisTable {
+	margin-top: 8px;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: smaller;
+	border-collapse: collapse;
+}
+
+.analysisTableHeader {
+	background-color: #f2bd38;
+	font-weight: bold;	
+	border-right: 1px solid #f2bd38;
+}
+
+.analysisTableLabelColumn {
+	vertical-align: top;
+	text-align: left;
+	background-color: #fdebbc;
+	padding: 10px;
+	border-right: 1px solid #f2d762;
+	border-bottom: 1px solid #f2d762;
+}
+
+.analysisTableValueColumn {
+	vertical-align: top;
+	text-align: right;
+	background-color: #fdf1d1;
+	padding: 10px;
+	padding-right: 20px;
+	border-right: 1px solid #fdf1d1;
+	border-bottom: 1px solid #f2d762;
+}
+
+.analysisTableExtraColumn {
+	vertical-align: top;
+	background-color: #fdf1d1;	
+	padding: 10px;
+	border-bottom: 1px solid #f2d762;
+}
+
+.analysisBottomLabel {
+	margin-top: 5px;
+	margin-bottom: 10px;	
+}
+
+.analysisBottomImage {
+	
+}
+
+.analysisBottomPanel {
+	margin-bottom: 24px;		
+}
+
+.analysisButtonPanel {
+	margin-right: 20px;
+	margin-bottom: 10px;	
+}
+
+.documentMainPanel {
+	background-color: #fef0c9;
+}
+
+.documentTitle {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.documentModified {
+}
+
+.documentSize {
+}
+
+.documentTopPanel {
+	margin-bottom: 6px;
+	padding: 10px;
+}
+
+.documentPanel td {
+	pading: 10px;
+}
+
+.wizardTable {
+	border: 1px solid silver;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+
+.wizardTable td {
+	padding: 10px;	
+}
+
+.wizardTableHeader {
+ 	background-color: #2062B8;
+  	color: white;
+  	border-right: 1px solid #2062B8;
+  	font-style: italic;
+  	font-weight: bold;
+}
+
+.wizardButtonColumn {
+	text-align: center;
+}
+
+.wizardButton {
+	width: 150px;
+}
+

@@ -1,0 +1,2 @@
+serviceClass: gov.cdc.irdu.samwise.client.DocumentService
+path: 2E699D8526749C4FC282471513F558E5.gwt.rpc

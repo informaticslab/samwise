@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sam>
+	<evaluationClassname>gov.cdc.irdu.samwise.client.SamDialog</evaluationClassname>
+	<group name="Content">
+		<item value="Purpose is evident">
+			<explanation>
+				It is important that readers/clients readily understand the
+				intended purpose of the instruction for them. If they don't clearly perceive the
+				purpose, they may not pay attention or may miss the main point.
+			</explanation>
+			<superior>
+				Purpose is explicitly stated in title, or cover illustration, or introduction.
+			</superior>
+			<adequate>
+				Purpose is not explicit. It is implied, or multiple purposes are stated.
+			</adequate>
+			<not-suitable>
+				No purpose is stated in the title, cover illustration, or introduction.
+			</not-suitable>
+		</item>
+		<item value="Content about behaviors">
+			<explanation>
+				Since adult patients usually want to solve their immediate health
+				problem rather than learn a series of medical facts (that may only imply a solution),
+				the content of greatest interest and use to clients is likely to be behavior
+				information to help solve their problem.			
+			</explanation>
+			<superior>
+				Thrust of the material is application of knowledge/skills aimed at
+				desirable reader behavior rather than non-behavior facts.
+			</superior>
+			<adequate>
+				At least 40 percent of content topics focus on desirable behaviors or actions.
+			</adequate>
+			<not-suitable>
+				Nearly all topics are focused on non behavior facts.
+			</not-suitable>
+		</item>
+		<item value="Scope is limited">
+			<explanation>
+				Scope is limited to purpose or objective(s). Scope is also limited
+				to what the patient can reasonably learn in the time allowed.
+			</explanation>
+			<superior>
+				Scope is limited to essential information directly related to the
+     			purpose. Experience shows it can be learned in time allowed.
+			</superior>
+			<adequate>
+				Scope is expanded beyond the purpose; no more than 40 percent
+				is non-essential information. Key points can be learned in time allowed.
+			</adequate>
+			<not-suitable>
+				Scope is far out of proportion to the purpose and time allowed.
+			</not-suitable>
+		</item>
+	</group>
+
+	<group name="Literacy Demand">
+		<item value="Reading grade level" hasAnalysis="true">
+			<explanation>
+				Unless the instruction presents the topics completely without text
+				(via visual, demonstrations, and/or audio), the text reading level may be a
+				critical factor in patient comprehension. Reading formulas can provide a reasonably
+				accurate measure of reading difficulty.
+			</explanation>
+			<superior>
+				5th-grade level or lower (5 years of schooling level).
+			</superior>
+			<adequate>
+				6th-, 7th-, or 8th-grade level (6-8 years of schooling level).
+			</adequate>
+			<not-suitable>
+				9th-grade level and above (9 years or more of schooling level).
+			</not-suitable>
+		</item>
+		<item value="Writing style, active voice">
+			<explanation>
+				Conversational style and active voice lead to easy-to-understand
+				text. Example: "Take your medicine every day." Passive voice is less effective.
+				Example: "Patients should be advised to take their medicine every day." Embedded
+				information, the long or multiple phrases included in a sentence, slows
+				down the reading process and generally makes comprehension more difficult.		
+			</explanation>
+			<superior>
+				<list>
+					Both factors: 
+					<list-item>Mostly conversational style and active voice.</list-item> 
+					<list-item>Simple sentences are used extensively; few sentences contain
+						embedded information.</list-item>
+				</list>
+			</superior>
+			<adequate>
+				<list>
+					<list-item>About 50 percent of the text uses conversational style and active voice.</list-item> 
+					<list-item>Less than half the sentences have embedded information.</list-item>
+				</list>
+			</adequate>
+			<not-suitable>
+				<list>
+					<list-item>Passive voice throughout.</list-item> 
+					<list-item>Over half the sentences have extensive embedded information.</list-item>
+				</list>
+			</not-suitable>
+		</item>
+		<item value="Vocabulary uses common words">
+			<explanation>
+				Common, explicit words are used (for example, doctor vs. physician).
+				The instruction uses few or no words that express general terms such
+				as categories (for example, legumes vs. beans), concepts (for example, normal
+				range vs. 15 to 70), and value judgments (for example, excessive pain vs. pain
+				lasts more than 5 minutes). Imagery words are used because these are words
+				people can "see" (for example, whole wheat bread vs. dietary fiber; a runny
+				nose vs. excess mucus).
+			</explanation>
+			<superior>
+				<list>
+					All three factors: 
+					<list-item>Common words are used nearly all of the time.</list-item> 
+					<list-item>Technical, concept, category, value judgment (CCVJ) 
+							words are explained by examples.</list-item> 
+					<list-item>Imagery words are used as appropriate for content.</list-item>
+				</list>
+			</superior>
+			<adequate>
+				<list>
+					<list-item>Common words are frequently used.</list-item> 
+					<list-item>Technical and CCVJ words are sometimes explained by examples.</list-item> 
+					<list-item>Some jargon or math symbols are included.</list-item>
+				</list>
+			</adequate>
+			<not-suitable>
+				<list>
+					Two or more factors: 
+					<list-item>Uncommon words are frequently used in lieu of common words.</list-item> 
+					<list-item>No examples are given for technical and CCVJ words.</list-item>
+					<list-item>Extensive jargon.</list-item>
+				</list>
+			</not-suitable>
+		</item>
+		<item value="Context is given first">
+			<explanation>
+				We learn new facts/behaviors more quickly when told the context
+				first. Good example: "To find out what's wrong with you (the context first), the
+				doctor will take a sample of your blood for lab tests" (new information).
+			</explanation>
+			<superior>
+				Consistently provides context before presenting new information.
+			</superior>
+			<adequate>
+				Provides context before new information about 50 percent of the time.
+			</adequate>
+			<not-suitable>
+				Context is provided last or no context is provided.
+			</not-suitable>
+		</item>
+		<item value="Learning aids via 'road signs'">
+			<explanation>
+				Headers or topic captions should be used to tell very briefly
+				what's coming up next. These "road signs" make the text look less formidable,
+				and also prepare the reader's thought process to expect the announced topic.
+			</explanation>
+			<superior>
+				Nearly all topics are preceded by an advance organizer (a statement
+				that tells what is coming next).
+			</superior>
+			<adequate>
+				About 50 percent of the topics are preceded by advance organizers.
+			</adequate>
+			<not-suitable>
+				Few or no advance organizers are used.
+			</not-suitable>
+		</item>
+	</group>
+
+	<group name="Graphics">
+		<item value="Cover graphics show purpose">
+			<explanation>
+				People do judge a booklet by its cover. The cover image often is the
+				deciding factor in a patient's attitude toward, and interest in, the instruction.
+			</explanation>
+			<superior>
+				<list>
+					The cover graphic is 
+					<list-item>friendly</list-item>
+					<list-item>attracts attention</list-item>
+					<list-item>clearly portrays the purpose of the material to the intended audience.</list-item>
+				</list>
+			</superior>
+			<adequate>
+				The cover graphic has one or two of the superior criteria.
+			</adequate>
+			<not-suitable>
+				The cover graphic has none of the superior criteria.
+			</not-suitable>
+		</item>
+		<item value="Type of graphics">
+			<explanation>
+				Simple line drawings can promote realism without including distracting
+				details. (Photographs often include unwanted details.) Visuals are
+				accepted and remembered better when they portray what is familiar and easily
+				recognized. Viewers may not recognize the meaning of medical textbook
+				drawings or abstract art/symbols.		
+			</explanation>
+			<superior>
+				<list>
+					Both factors: 
+					<list-item>Simple, adult-appropriate, line drawings/sketches are used.</list-item> 
+					<list-item>Illustrations are likely to be familiar to the viewers.</list-item>
+				</list>
+			</superior>
+			<adequate>
+				One of the superior factors is missing.
+			</adequate>
+			<not-suitable>
+				None of the superior factors are present.
+			</not-suitable>
+		</item>
+		<item value="Relevance of illustrations">
+			<explanation>
+				Non-essential details such as room background, elaborate borders,
+				unneeded color can distract the viewer. The viewer's eyes may be "captured"
+				by these details. The illustrations should tell the key points visually.
+			</explanation>
+			<superior>
+				Illustrations present key messages visually so the reader/viewer
+				can grasp the key ideas from the illustrations alone. No distractions.
+			</superior>
+			<adequate>
+				<list>
+					<list-item>Illustrations include some distractions.</list-item> 
+					<list-item>Insufficient use of illustrations.</list-item>
+				</list>
+			</adequate>
+			<not-suitable>
+				<list>
+					One factor: 
+					<list-item>Confusing or technical illustrations (non-behavior related).</list-item> 
+					<list-item>No illustrations, or an overload of illustrations.</list-item>
+				</list>
+			</not-suitable>
+		</item>
+		<item value="Lists, tables, etc. explained">
+			<explanation>
+				Many readers do not understand the author's purpose for the
+				lists, charts, and graphs. Explanations and directions are essentiaL
+			</explanation>
+			<superior>
+				Step-by-step directions, with an example, are provided that will
+				build comprehension and self-efficacy.
+			</superior>
+			<adequate>
+				'How-to' directions are too brief for reader to understand and
+				use the graphic without additional counseling.
+			</adequate>
+			<not-suitable>
+				Graphics are presented without explanation.
+			</not-suitable>
+		</item>
+		<item value="Captions used for graphics">
+			<explanation>
+				Captions can quickly tell the reader what the graphic is all about,
+				where to focus within the graphic. A graphic without a caption is usually an
+				inferior instruction and represents a missed learning opportunity.
+			</explanation>
+			<superior>
+				Explanatory captions with all or nearly all illustrations and graphics.
+			</superior>
+			<adequate>
+				Brief captions used for some illustrations and graphics.
+			</adequate>
+			<not-suitable>
+				Captions are not used.
+			</not-suitable>
+		</item>
+	</group>
+
+	<group name="Layout and Typography">
+		<item value="Layout factors">
+			<explanation>
+				Layout has a substantial influence on the suitability of materials.
+			</explanation>
+			<superior>
+				<list>
+					At least five of the following eight factors are present:
+					<list-item>Illustrations are on the same page adjacent to the related text.</list-item>
+					<list-item>Layout and sequence of information are consistent, making it easy for the
+				   		patient to predict the flow of information.</list-item>
+					<list-item>Visual cuing devices (shading, boxes, arrows) are used to direct attention to
+				   		specific points or key content.</list-item>
+					<list-item>Adequate white space is used to reduce appearance of clutter.</list-item>
+					<list-item>Use of color supports and is not distracting to the message. Viewers need not
+				   		learn color codes to understand and use the message.</list-item>
+					<list-item>Line length is 30-50 characters and spaces.</list-item>
+					<list-item>There is high contrast between type and paper.</list-item>
+					<list-item>Paper has non-gloss or low-gloss surface.</list-item>
+				</list>
+			</superior>
+			<adequate>
+				At least three of the superior factors are present.
+			</adequate>
+			<not-suitable>
+				<list>
+					<list-item>Two (or less) of the superior factors are present.</list-item>
+					<list-item>Looks uninviting or discouragingly hard to read.</list-item>
+				</list>
+			</not-suitable>
+		</item>
+		<item value="Typography">
+			<explanation>
+				Type size and fonts can make text easy or difficult for readers at
+				all skill levels. For example, type in ALL CAPS slows everybody's reading
+				comprehension. Also, when too many (six or more) type fonts and sizes are
+				used on a page, the appearance becomes confusing and the focus uncertain.		
+			</explanation>
+			<superior>
+				<list>
+					The following four factors are present:
+					<list-item>Text type is in uppercase and lowercase serif (best) or sans-serif.</list-item>
+					<list-item>Type size is at least 12 point.</list-item>
+					<list-item>Typographic cues (bold, size, color) emphasize key points.</list-item>
+					<list-item>No ALL CAPS for long headers or running text.</list-item>
+				</list>
+			</superior>
+			<adequate>
+				Two of the superior factors are present.
+			</adequate>
+			<not-suitable>
+				One or none of the superior factors are present. Or, six or more
+				type styles and sizes are used on a page.
+			</not-suitable>
+		</item>
+		<item value="Subheads ('chunking') used">
+			<explanation>
+				Few people can remembering more than seven independent
+				items. For adults with low literacy skills the limit may be three- to five-item	
+				lists. Longer lists need to be partitioned into smaller "chunks."
+			</explanation>
+			<superior>
+				<list>
+					<list-item>Lists are grouped under descriptive subheadings or "chunks."</list-item>
+					<list-item>No more than five items are presented without a subheading.</list-item>
+				</list>
+			</superior>
+			<adequate>
+				No more than seven items are presented without a subheading.
+			</adequate>
+			<not-suitable>
+				More than seven items are presented without a subheading.
+			</not-suitable>
+		</item>
+	</group>
+
+	<group name="Learning Stimulation, Motivation">
+		<item value="Interaction used">
+			<explanation>
+				When the patient responds to the instruction-that is, does something
+				to reply to a problem or question-chemical changes take place in the
+				brain that enhance retention in long-term memory. Readers/viewers should
+				be asked to solve problems, to make choices, to demonstrate, etc.
+			</explanation>
+			<superior>
+				Problems or questions presented for reader responses.
+			</superior>
+			<adequate>
+				Question-and-answer format used to discuss problems and solutions
+				(passive interaction).
+			</adequate>
+			<not-suitable>
+				No interactive learning stimulation provided.
+			</not-suitable>
+		</item>
+		<item value="Behaviors are modeled and specific">
+			<explanation>
+				People often learn more readily by observation and by doing it
+				themselves rather than by reading or being told. They also learn more readily
+				when specific, familiar instances are used rather than the abstract or general.		
+			</explanation>
+			<superior>
+				Instruction models specific behaviors or skills. (For example, for
+				nutrition instruction, emphasis is given to changes in eating patterns
+				or shopping or food preparation/cooking tips; tips to read labels.)
+			</superior>
+			<adequate>
+				Information is a mix of technical and common language that the
+				reader may not easily interpret in terms of daily living (for example:
+				Technical: Starches-80 calories per serving; High Fiber-l-4
+				grams of fiber in a serving).
+			</adequate>
+			<not-suitable>
+				Information is presented in non-specific or category terms such as the food groups.
+			</not-suitable>
+		</item>
+		<item value="Motivation -- self-efficacy">
+			<explanation>
+				People are more motivated to learn when they believe the
+				tasks/behaviors are doable by them.
+			</explanation>
+			<superior>
+				Complex topics are subdivided into small parts so that readers
+				may experience small successes in understanding or problem
+				solving, leading to self-efficacy.
+			</superior>
+			<adequate>
+				Some topics are subdivided to improve the readers' self-efficacy.
+			</adequate>
+			<not-suitable>
+				No partitioning is provided to create opportunities for small successes.
+			</not-suitable>
+		</item>
+	</group>
+
+	<group name="Cultural Appropriatness">
+		<item value="Match in logic, language, experience">
+			<explanation>
+				A valid measure of cultural appropriateness of an instruction is
+				how well its logic, language, and experience (inherent in the instruction)
+				match the LLE of the intended audience. For example, a nutrition instruction
+				is a poor cultural match if it tells readers to eat asparagus and romaine lettuce
+				if these vegetables are rarely eaten by people in that culture and are not sold
+				in the readers' neighborhood markets.
+			</explanation>
+			<superior>
+				Central concepts/ideas of the material appear to be culturally
+				similar to the LLE of the target culture.
+			</superior>
+			<adequate>
+				Significant match in LLE for 50 percent of the central concepts.
+			</adequate>
+			<not-suitable>
+				Clearly a cultural mismatch in LLE.
+			</not-suitable>
+		</item>
+		<item value="Cultural images and examples">
+			<explanation>
+				To be accepted, an instruction must present cultural images and
+				examples in realistic and positive ways.		
+			</explanation>
+			<superior>
+				Images and examples present the culture in positive ways.
+			</superior>
+			<adequate>
+				Neutral presentation of cultural images or foods.
+			</adequate>
+			<not-suitable>
+				Negative image such as exaggerated or caricatured cultural characteristics, actions, or examples.
+			</not-suitable>
+		</item>
+	</group>
+
+</sam>
